@@ -1,0 +1,24 @@
+/* base CSS */
+/* 1em = 16px */
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 1em;
+	text-align: left;
+	color: black;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
+a, p, div, b, span, h1, h2, h3, h4, h5, h6
+article, section, header, footer, nav, ul, ol,
+li, dl, dd, dt tr, td, th, em, figure,
+form, label, legend, small, strong, sub,
+sup, q, figcaption, caption, button,
+blockquote, abbr, img, video, canvas  {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	
+}
